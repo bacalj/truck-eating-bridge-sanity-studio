@@ -38,8 +38,13 @@ export default createSchema({
           type: 'url'
         },
         {
-          title: 'Published Google Sites URL',
-          name: 'sitesURL',
+          title: 'TinkerCad Project Embed URL',
+          name: 'tinkerCadUrl',
+          type: 'url'
+        },
+        {
+          title: 'Scratch Project Embed URL',
+          name: 'scratchUrl',
           type: 'url'
         }
       ]
